@@ -69,4 +69,4 @@ RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r re
 # xvfb-run -a: Runs a command in a new X server display. -a automatically picks a display number.
 # python3 test_guestbook.py: Executes your Selenium test script.
 # The APP_URL will be passed as a command-line argument when running from Jenkins.
-CMD xvfb-run -a python3 test_guestbook.py
+CMD xvfb-run -a python3 test.py
